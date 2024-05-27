@@ -109,6 +109,11 @@ const obj = {
 
 console.log(obj);
 
+const MyVariable = "age";
+console.log(obj.name);
+console.log(obj["age"]);
+console.log(obj[MyVariable]);
+
 obj.name = "jun";
 
 console.log(obj);
